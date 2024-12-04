@@ -13,8 +13,24 @@
 #include "libft.h"
 #include <stdio.h>
 
+void	draw(int *a, int size)
+{
+	int	i;
+
+	i = 0;
+	while (i < size)
+		printf("%d ", a[i++]);
+	printf("\n");
+}
+
 int	main(void)
 {
-	printf("%d\n", 10);
+	int	a[] = {3, 2, 1, 4, 7, 11, 10};
+
+	printf("Antes\n");
+	draw(a, 7);
+	printf("Depois\n");
+	ft_quicksort(a, 0, 6);
+	draw(a, 7);
 	return (0);
 }
