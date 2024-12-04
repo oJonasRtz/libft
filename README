@@ -1,0 +1,23 @@
+COMMAND TO COMPILE ANY PROGRAM WITH LIBFT
+
+gcc -Wall -Werror -Wextra -I. main.c -L. -lft -o my_program -g
+
+Flag -g to use valgrind ./my_program
+
+Excluir README e main.c antes de subir no repositorio
+
+teste commit
+
+RULES:
+
+make - makes libft.a 
+
+make clean - clean all .o files
+
+make fclean - runs fclean and clean libft.a
+
+make re - run fclean and run make again
+
+make main - compile a main file
+
+make mclean - rm main program
