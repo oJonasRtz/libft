@@ -6,7 +6,7 @@
 /*   By: jopereir <jopereir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/08 12:09:27 by jopereir          #+#    #+#             */
-/*   Updated: 2024/11/05 10:12:11 by jopereir         ###   ########.fr       */
+/*   Updated: 2025/01/06 16:23:26 by jopereir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,12 +25,11 @@ void	draw(int *a, int size)
 
 int	main(void)
 {
-	int	a[] = {3, 2, 1, 4, 7, 11, 10};
+	char	*temp;
+	char	*temp2;
 
-	printf("Antes\n");
-	draw(a, 7);
-	printf("Depois\n");
-	ft_quicksort(a, 0, 6);
-	draw(a, 7);
+	temp = ft_calloc(1, 1);
+	temp2 = ft_calloc(1, 1);
+	ft_infinit_free(temp, temp2, NULL);
 	return (0);
 }

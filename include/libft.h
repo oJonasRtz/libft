@@ -6,7 +6,7 @@
 /*   By: jopereir <jopereir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/05 09:51:17 by jopereir          #+#    #+#             */
-/*   Updated: 2025/01/06 16:12:00 by jopereir         ###   ########.fr       */
+/*   Updated: 2025/01/06 16:23:35 by jopereir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -87,5 +87,5 @@ void	ft_quicksort(int *array, int low, int high);
 void	ft_bzero(void *s, size_t n);
 void	*ft_calloc(size_t nmemb, size_t size);
 void	*ft_double_free(void *a, void *b);
-
+void	*ft_infinit_free(void *s, ...);
 #endif
